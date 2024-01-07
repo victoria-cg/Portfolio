@@ -40,6 +40,12 @@ header nav ul li{
 main, a {
     color: var(--dark)
 }
+main h3{
+    background-color: var(--dark-teal);
+}
+#featured-project p{
+    background-color: var(--dark-teal);
+}
 aside{
     color: var(--dark)
 }
