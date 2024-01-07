@@ -16,33 +16,46 @@ header {
 header h1 {
     display: inline-flex;
     align-items: flex-start;
+    height: 20%;
+    margin: 0 5% 0 0;
     color: var(--dark);
     background-color: var(--dark-teal);
 }
 img{
     display: inline-flex;
+    height: 100px;
 }
-header nav {
-    display: inline-flex;
-    justify-content: right;
-    color: var(--dark);
+
+header nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 25%;
 }
 
 header nav a{
-    color: var(--dark-teal)
+    color: var(--dark-teal) 
 }
 header nav ul{
     list-style-type: none;
 }
 header nav ul li{
     display: inline-flex;
+    justify-content: center;
 }
 /*Styles for the hero section*/
 .hero{
     display:flex;
     justify-content: flex-end;
+    align-items: flex-end;
+    height: 200px;
     background-color: var(--light);
     background-image: url(images/hayward-sunset.jpg);
+    background-position: center;
+    background-size: cover;
 }
 .hero h2 {
  display: inline-flex;
