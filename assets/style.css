@@ -37,6 +37,9 @@ header nav ul li{
  color: var(--dark);
  background-color: var(--dark-teal);
 }
-main, h3, p, a{
+main, a {
+    color: var(--dark)
+}
+aside{
     color: var(--dark)
 }
