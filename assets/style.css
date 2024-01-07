@@ -31,8 +31,13 @@ header nav ul{
 header nav ul li{
     display: inline-block;
 }
+/*Styles for the hero section*/
+.hero{
+    background-color: var(--light);
+    background-image: url(images/hayward-sunset.jpg);
+}
 .hero h2 {
- display: block;
+ display: inline-block;
  text-align: right;
  color: var(--dark);
  background-color: var(--dark-teal);
