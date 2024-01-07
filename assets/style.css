@@ -68,7 +68,7 @@ main, a {
 main h3{
     background-color: var(--dark-teal);
 }
-#featured-project p{
+.featured-project{
     background-color: var(--dark-teal);
 }
 aside{
