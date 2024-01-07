@@ -6,6 +6,9 @@
     --bright-teal: #69FADA;
     --dark-teal: #7BC7B7; 
 }
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
 header {
     background-color: var(--medium);
 }
@@ -33,4 +36,7 @@ header nav ul li{
  text-align: right;
  color: var(--dark);
  background-color: var(--dark-teal);
+}
+main, h3, p, a{
+    color: var(--dark)
 }
