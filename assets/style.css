@@ -107,6 +107,14 @@ main h3{
 .featured-project h3{
 display: inline-flex;
 }
+.small-project{
+    background-color: var(--dark-teal);
+}
+.small-project img{
+    display: flex;
+    width: 100%;
+    height: auto;
+}
 #contact{
     display: flex;
     justify-content: space-evenly;
