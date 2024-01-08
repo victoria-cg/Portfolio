@@ -69,8 +69,11 @@ main{
 aside{
     display: inline-flex;
     flex-direction: column;
-    padding: 5%;
-    color: var(--dark)
+    justify-content: space-between;
+    padding: 3%;
+    color: var(--dark);
+    font-weight: bold;
+    font-size: 20px;
 }
 
 main p{
