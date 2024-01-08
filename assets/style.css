@@ -87,6 +87,14 @@ main, a {
 main h3{
     background-color: var(--dark-teal);
 }
+.main-content{
+    display: flex;
+    flex-direction: column;
+}
+.projects{
+    display: flex;
+    flex-direction: column;
+}
 #featured-image{
     height: 40vh;
     display: flex;
