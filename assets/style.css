@@ -62,15 +62,29 @@ header nav ul li{
  color: var(--dark);
  background-color: var(--dark-teal);
 }
+/*styles for main section*/
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
 main, a {
     color: var(--dark)
 }
 main h3{
     background-color: var(--dark-teal);
 }
+#featured-image{
+    height: 40vh;
+    display: flex;
+    flex-wrap: wrap
+}
 .featured-project{
     background-color: var(--dark-teal);
 }
+.featured-project h3{
+display: inline-flex;
+}
+
 aside{
     color: var(--dark)
 }
