@@ -65,8 +65,19 @@ header nav ul li{
 /*styles for main section*/
 main{
     display: flex;
-    flex-wrap: wrap;
 }
+aside{
+    display: inline-flex;
+    flex-direction: column;
+    padding: 5%;
+    color: var(--dark)
+}
+
+main p{
+    display:inline-flex;
+    flex-direction: row;
+}
+
 main, a {
     color: var(--dark)
 }
@@ -76,15 +87,11 @@ main h3{
 #featured-image{
     height: 40vh;
     display: flex;
-    flex-wrap: wrap
+    flex-wrap: wrap;
 }
 .featured-project{
     background-color: var(--dark-teal);
 }
 .featured-project h3{
 display: inline-flex;
-}
-
-aside{
-    color: var(--dark)
 }
