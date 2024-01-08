@@ -95,3 +95,7 @@ main h3{
 .featured-project h3{
 display: inline-flex;
 }
+#contact{
+    display: flex;
+    justify-content: space-evenly;
+}
