@@ -28,17 +28,19 @@ img{
 
 header nav{
     display: inline-flex;
+    flex-grow: 1;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: flex-end;
     align-items: flex-start;
     font-weight: bold;
     font-size: 20px;
-    margin-left: 25%
+    
 }
 
 header nav a{
-    color: var(--dark-teal) 
+    color: var(--dark-teal);
+    display: inline-flex;
 }
 header nav ul{
     list-style-type: none;
