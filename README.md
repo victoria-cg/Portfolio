@@ -14,9 +14,9 @@ N/A: The project is a webpage
 The website is accessible at the following URL: https://victoria-cg.github.io/Portfolio/
 To navigate the website, use the nav menu in the top right of the page or scroll down the page until desired content is reached. The featured project, Github, and Linkedin secctions are all active links to deployed websites. 
 
-    ```md
+
     ![screenshot of portfolio, showing images and navigation layout](assets/images/portfolio-screenshot.png)
-    ```
+    
 
 ## Credits
 
